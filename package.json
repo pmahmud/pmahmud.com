@@ -1,0 +1,50 @@
+{
+  "name": "ngulpack-seed",
+  "version": "0.0.0",
+  "description": "Seed project for Angular, gulp and webpack setup",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmahmud/ngulpack-seed.git"
+  },
+  "keywords": [
+    "Angular",
+    "Gulp",
+    "Webpack",
+    "Loader",
+    "Build",
+    "Build-system"
+  ],
+  "author": "Pallab Mahmud <pmahmud@cs.uoregon.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pmahmud/ngulpack-seed/issues"
+  },
+  "homepage": "https://github.com/pmahmud/ngulpack-seed#readme",
+  "devDependencies": {
+    "autoprefixer-loader": "^2.0.0",
+    "browser-sync": "^2.8.1",
+    "browser-sync-spa": "^1.0.2",
+    "css-loader": "^0.15.6",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.6",
+    "html-loader": "^0.3.0",
+    "ng-cache-loader": "0.0.9",
+    "node-sass": "^3.2.0",
+    "sass-loader": "^1.0.3",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.10.5",
+    "webpack-stream": "^2.0.0",
+    "wrench": "^1.5.8"
+  },
+  "dependencies": {
+    "angular": "^1.4.3",
+    "angular-ui-router": "^0.2.15",
+    "oclazyload": "^1.0.3"
+  }
+}
